@@ -3,9 +3,8 @@ import requests
 import re
 import pickle
 from typing import List, Dict
-from keyword_similarity import get_top_similar_profs  # your optimized prof matching
+from .comparison import get_top_similar_profs  # your optimized prof matching
 from dotenv import load_dotenv
-
 
 load_dotenv()
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -62,7 +61,7 @@ def get_keywords_from_document(resume_text: str) -> List[str]:
         # fallback: comma split
         return [kw.strip().lower() for kw in output_text.split(",")]
 
-def draft_email_to_prof(student_keywords: List[str], matched_interests: List[str], prof_name: str) -> str:
+def draft_email_to_prof(student_keywords: List[str], stu_name: str, stuid: str, matched_interests: List[str], prof_name: str) -> str:
     """
     Uses Gemini API to draft a personalized email to a professor.
     """
@@ -70,6 +69,7 @@ def draft_email_to_prof(student_keywords: List[str], matched_interests: List[str
     Draft a professional and polite email to Professor {prof_name} expressing interest
     in their research. The student has the following research interests: {student_keywords}.
     They share these specific matched interests with the professor: {matched_interests}.
+    Their name is {stu_name} and Andrew ID is {stuid} (student id at CMU).
     Keep it concise, 3-5 sentences, and include a polite request to discuss research opportunities.
     """
 
@@ -116,7 +116,7 @@ if __name__ == "__main__":
     print("Extracted Student Keywords:", student_keywords)
 
     # 3. Find top professors
-    top_profs = get_top_similar_profs(student_keywords, threshold=0.3, prof_data_path="prof_data.pkl")
+    top_profs = get_top_similar_profs(student_keywords, threshold=0.3, prof_data_path=".prof_data.pkl")
     
     # 4. Draft emails for each prof
     for prof in top_profs:

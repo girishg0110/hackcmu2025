@@ -6,6 +6,7 @@ import json
 import torch
 import numpy as np
 
+FOLDER = os.path.dirname(__file__)  
 # ---------------- Model ----------------
 model = SentenceTransformer("sentence-transformers/paraphrase-albert-small-v2")
 # model.quantize(bits=8)  # optional for smaller memory footprint
@@ -31,7 +32,7 @@ def pre_compute_prof_data(prof_data: List[Dict[str, Any]], save_path: str = "pro
 
 
 # ---------------- Compute Top Similar Professors ----------------
-def get_top_similar_profs(student_keywords: List[str], threshold: float = 0.3, prof_data_path: str = "prof_data.pt") -> List[Dict[str, Any]]:
+def get_top_similar_profs(student_keywords: List[str], threshold: float = 0.3, prof_data_path: str = os.path.join(FOLDER, "prof_data.pt")) -> List[Dict[str, Any]]:
     """
     Compare a student's research interests to precomputed professor embeddings.
     Returns augmented prof dicts with similarity scores and matched interests (without embeddings).
@@ -43,8 +44,8 @@ def get_top_similar_profs(student_keywords: List[str], threshold: float = 0.3, p
     if not os.path.exists(prof_data_path):
         raise FileNotFoundError(f"Precomputed prof data file not found: {prof_data_path}")
     
-    prof_meta = json.load(open('../filtered_authors_and_topics.json', 'r'))
-    prof_data = torch.load(prof_data_path)
+    prof_meta = json.load(open(os.path.join(FOLDER, '../filtered_authors_and_topics.json'), 'r'))
+    prof_data = torch.load(prof_data_path, map_location='cpu')
 
     # Encode student keywords once
     student_emb = model.encode(student_keywords, convert_to_tensor=True, normalize_embeddings=True)
@@ -58,7 +59,7 @@ def get_top_similar_profs(student_keywords: List[str], threshold: float = 0.3, p
             score, matched_interests = 0.0, []
         else:
             sims = util.cos_sim(student_emb, prof_emb)
-            print(sims.shape)
+            # print(sims.shape)
 
             # Find matched interests
             matched_keywords = set()
@@ -72,7 +73,7 @@ def get_top_similar_profs(student_keywords: List[str], threshold: float = 0.3, p
             # Smooth score: average of max similarity per student keyword
             #@TODO: ignore if max sim is below a lower threshold?
             max_sims = [max(sims[i]).item() for i in range(len(student_keywords))]
-            print(max_sims)
+            # print(max_sims)
             total_sum = 0.0
             for i in range(len(student_keywords)):
                 if max_sims[i] > threshold:
