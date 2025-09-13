@@ -1,0 +1,1010 @@
+[
+  {
+    "prof_name": "Florian Metze",
+    "prof_keywords": [
+      "Speech Recognition and Synthesis",
+      "Music and Audio Processing",
+      "Speech and Audio Processing",
+      "Natural Language Processing Techniques",
+      "Speech and dialogue systems"
+    ],
+    "prof_email": "fmetze@andrew.cmu.edu",
+    "prof_dpt": "Language Technologies Institute"
+  },
+  {
+    "prof_name": "David Held",
+    "prof_keywords": [
+      "Robot Manipulation and Learning",
+      "Reinforcement Learning in Robotics",
+      "Global Peace and Security Dynamics",
+      "Human Pose and Action Recognition",
+      "Robotics and Sensor-Based Localization"
+    ],
+    "prof_email": "dheld@andrew.cmu.edu",
+    "prof_dpt": "Robotics Institute"
+  },
+  {
+    "prof_name": "Rachel Mandelbaum",
+    "prof_keywords": [
+      "Galaxies: Formation, Evolution, Phenomena",
+      "Astronomy and Astrophysical Research",
+      "Adaptive optics and wavefront sensing",
+      "Gamma-ray bursts and supernovae",
+      "Stellar, planetary, and galactic studies"
+    ],
+    "prof_email": "rmandelb@andrew.cmu.edu",
+    "prof_dpt": "Physics"
+  },
+  {
+    "prof_name": "Chris Hendrickson",
+    "prof_keywords": [
+      "Transportation Planning and Optimization",
+      "BIM and Construction Integration",
+      "Environmental Impact and Sustainability",
+      "Transportation and Mobility Innovations",
+      "Energy, Environment, and Transportation Policies"
+    ],
+    "prof_email": "cth@cmu.edu",
+    "prof_dpt": "CEE: Civil & Environmental Engineering"
+  },
+  {
+    "prof_name": "Guy E. Blelloch",
+    "prof_keywords": [
+      "Parallel Computing and Optimization Techniques",
+      "Distributed systems and fault tolerance",
+      "Algorithms and Data Compression",
+      "Distributed and Parallel Computing Systems",
+      "Complexity and Algorithms in Graphs"
+    ],
+    "prof_email": "gb1y@andrew.cmu.edu",
+    "prof_dpt": "Computer Science Department"
+  },
+  {
+    "prof_name": "Christian Kastner",
+    "prof_keywords": [
+      "Software Engineering Research",
+      "Advanced Software Engineering Methodologies",
+      "Software System Performance and Reliability",
+      "Software Reliability and Analysis Research",
+      "Software Testing and Debugging Techniques"
+    ],
+    "prof_email": "christian.kastner@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Kris Kitani",
+    "prof_keywords": [
+      "Human Pose and Action Recognition",
+      "Video Surveillance and Tracking Methods",
+      "Advanced Neural Network Applications",
+      "Robotics and Sensor-Based Localization",
+      "Anomaly Detection Techniques and Applications"
+    ],
+    "prof_email": "kkitani@cmu.edu",
+    "prof_dpt": "Robotics Institute"
+  },
+  {
+    "prof_name": "M.H. Kryder",
+    "prof_keywords": [
+      "Magnetic properties of thin films",
+      "Magnetic Properties and Applications",
+      "Magneto-Optical Properties and Applications",
+      "Metal and Thin Film Mechanics",
+      "Metallic Glasses and Amorphous Alloys"
+    ],
+    "prof_email": "mh.kryder@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Eileen M. Trauth",
+    "prof_keywords": [
+      "Gender and Technology in Education",
+      "ICT Impact and Policies",
+      "Information Systems Theories and Implementation",
+      "Information Systems Education and Curriculum Development",
+      "Knowledge Management and Sharing"
+    ],
+    "prof_email": "eileen.m.trauth@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "R.W. Kraemer",
+    "prof_keywords": [
+      "Particle physics theoretical and experimental studies",
+      "Quantum Chromodynamics and Particle Interactions",
+      "High-Energy Particle Collisions Research",
+      "Neutrino Physics Research",
+      "Dark Matter and Cosmic Phenomena"
+    ],
+    "prof_email": "rk1t@andrew.cmu.edu",
+    "prof_dpt": "Physics"
+  },
+  {
+    "prof_name": "Edmund M. Clarke",
+    "prof_keywords": [
+      "Formal Methods in Verification",
+      "Software Testing and Debugging Techniques",
+      "Logic, programming, and type systems",
+      "Software Reliability and Analysis Research",
+      "Embedded Systems Design Techniques"
+    ],
+    "prof_email": "edmund.m.clarke@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Carl D. Laird",
+    "prof_keywords": [
+      "Advanced Control Systems Optimization",
+      "Water Systems and Optimization",
+      "Process Optimization and Integration",
+      "Advanced Optimization Algorithms Research",
+      "Water Treatment and Disinfection"
+    ],
+    "prof_email": "claird@andrew.cmu.edu",
+    "prof_dpt": "Chemical Engineering"
+  },
+  {
+    "prof_name": "Christian Lebiere",
+    "prof_keywords": [
+      "Cognitive Science and Mapping",
+      "AI-based Problem Solving and Planning",
+      "Opinion Dynamics and Social Influence",
+      "Human-Automation Interaction and Safety",
+      "Neural dynamics and brain function"
+    ],
+    "prof_email": "cl@cmu.edu",
+    "prof_dpt": "Psychology"
+  },
+  {
+    "prof_name": "David W. Greve",
+    "prof_keywords": [
+      "Acoustic Wave Resonator Technologies",
+      "Ultrasonics and Acoustic Wave Propagation",
+      "Semiconductor materials and devices",
+      "GaN-based semiconductor devices and materials",
+      "Non-Destructive Testing Techniques"
+    ],
+    "prof_email": "dg07@andrew.cmu.edu",
+    "prof_dpt": "ECE: Electrical & Computer Engineering"
+  },
+  {
+    "prof_name": "Colin Morningstar",
+    "prof_keywords": [
+      "Quantum Chromodynamics and Particle Interactions",
+      "Particle physics theoretical and experimental studies",
+      "High-Energy Particle Collisions Research",
+      "Physics of Superconductivity and Magnetism",
+      "Cold Atom Physics and Bose-Einstein Condensates"
+    ],
+    "prof_email": "cmorning@andrew.cmu.edu",
+    "prof_dpt": "Physics"
+  },
+  {
+    "prof_name": "Egon Balas",
+    "prof_keywords": [
+      "Vehicle Routing Optimization Methods",
+      "Optimization and Packing Problems",
+      "Advanced Graph Theory Research",
+      "Advanced Optimization Algorithms Research",
+      "Scheduling and Optimization Algorithms"
+    ],
+    "prof_email": "egon.balas@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Michael F. Scheier",
+    "prof_keywords": [
+      "Optimism, Hope, and Well-being",
+      "Psychological Well-being and Life Satisfaction",
+      "Resilience and Mental Health",
+      "Behavioral Health and Interventions",
+      "Psychological and Temporal Perspectives Research"
+    ],
+    "prof_email": "scheier@cmu.edu",
+    "prof_dpt": "Psychology"
+  },
+  {
+    "prof_name": "Walter Noll",
+    "prof_keywords": [
+      "Elasticity and Material Modeling",
+      "Rheology and Fluid Dynamics Studies",
+      "Elasticity and Wave Propagation",
+      "Composite Material Mechanics",
+      "Silicone and Siloxane Chemistry"
+    ],
+    "prof_email": "wn0g@andrew.cmu.edu",
+    "prof_dpt": "Mathematical Sciences"
+  },
+  {
+    "prof_name": "Aaron Steinfeld",
+    "prof_keywords": [
+      "Human-Automation Interaction and Safety",
+      "Social Robot Interaction and HRI",
+      "Tactile and Sensory Interactions",
+      "Autonomous Vehicle Technology and Safety",
+      "Innovative Human-Technology Interaction"
+    ],
+    "prof_email": "steinfeld@cmu.edu",
+    "prof_dpt": "Robotics Institute"
+  },
+  {
+    "prof_name": "Jin Xiong",
+    "prof_keywords": [
+      "Crystallization and Solubility Studies",
+      "X-ray Diffraction in Crystallography",
+      "Magnetism in coordination complexes",
+      "Lanthanide and Transition Metal Complexes",
+      "Metal-Catalyzed Oxygenation Mechanisms"
+    ],
+    "prof_email": "jinxiong@andrew.cmu.edu",
+    "prof_dpt": "Chemistry"
+  },
+  {
+    "prof_name": "Norman Chigier",
+    "prof_keywords": [
+      "Combustion and flame dynamics",
+      "Fluid Dynamics and Heat Transfer",
+      "Particle Dynamics in Fluid Flows",
+      "Plant Surface Properties and Treatments",
+      "Fluid Dynamics and Turbulent Flows"
+    ],
+    "prof_email": "chigier@andrew.cmu.edu",
+    "prof_dpt": "Mechanical Engineering"
+  },
+  {
+    "prof_name": "Mario Berges",
+    "prof_keywords": [
+      "Building Energy and Comfort Optimization",
+      "Smart Grid Energy Management",
+      "Energy Efficiency and Management",
+      "Structural Health Monitoring Techniques",
+      "Ultrasonics and Acoustic Wave Propagation"
+    ],
+    "prof_email": "marioberges@cmu.edu",
+    "prof_dpt": "CEE: Civil & Environmental Engineering"
+  },
+  {
+    "prof_name": "Justine Cassell",
+    "prof_keywords": [
+      "Speech and dialogue systems",
+      "Social Robot Interaction and HRI",
+      "AI in Service Interactions",
+      "Hearing Impairment and Communication",
+      "Topic Modeling"
+    ],
+    "prof_email": "justine@cs.cmu.edu",
+    "prof_dpt": "Language Technologies Institute"
+  },
+  {
+    "prof_name": "Priya Narasimhan",
+    "prof_keywords": [
+      "Distributed systems and fault tolerance",
+      "Software System Performance and Reliability",
+      "Cloud Computing and Resource Management",
+      "Real-Time Systems Scheduling",
+      "Service-Oriented Architecture and Web Services"
+    ],
+    "prof_email": "priya@cs.cmu.edu",
+    "prof_dpt": "ECE: Electrical & Computer Engineering"
+  },
+  {
+    "prof_name": "Sheng Shen",
+    "prof_keywords": [
+      "Thermal Radiation and Cooling Technologies",
+      "Advanced Photocatalysis Techniques",
+      "Metamaterials and Metasurfaces Applications",
+      "Quantum Electrodynamics and Casimir Effect",
+      "Thermal properties of materials"
+    ],
+    "prof_email": "sshen1@cmu.edu",
+    "prof_dpt": "Mechanical Engineering"
+  },
+  {
+    "prof_name": "James D. Herbsleb",
+    "prof_keywords": [
+      "Software Engineering Research",
+      "Open Source Software Innovations",
+      "Software Engineering Techniques and Practices",
+      "Advanced Software Engineering Methodologies",
+      "Wikis in Education and Collaboration"
+    ],
+    "prof_email": "herbsleb@cmu.edu",
+    "prof_dpt": "S3D Software and Societal Systems Department"
+  },
+  {
+    "prof_name": "Michael R. Bockstaller",
+    "prof_keywords": [
+      "Advanced Polymer Synthesis and Characterization",
+      "Polymer Surface Interaction Studies",
+      "Block Copolymer Self-Assembly",
+      "Polymer Nanocomposites and Properties",
+      "Pickering emulsions and particle stabilization"
+    ],
+    "prof_email": "bockstaller@cmu.edu",
+    "prof_dpt": "MSE: Materials Science & Engineering"
+  },
+  {
+    "prof_name": "Markus Deserno",
+    "prof_keywords": [
+      "Lipid Membrane Structure and Behavior",
+      "Force Microscopy Techniques and Applications",
+      "Nanopore and Nanochannel Transport Studies",
+      "Protein Structure and Dynamics",
+      "Electrostatics and Colloid Interactions"
+    ],
+    "prof_email": "deserno@andrew.cmu.edu",
+    "prof_dpt": "Physics"
+  },
+  {
+    "prof_name": "Marcel P. Bruchez",
+    "prof_keywords": [
+      "Advanced biosensing and bioanalysis techniques",
+      "Advanced Fluorescence Microscopy Techniques",
+      "Quantum Dots Synthesis And Properties",
+      "Advanced Biosensing Techniques and Applications",
+      "Click Chemistry and Applications"
+    ],
+    "prof_email": "marcel.p.bruchez@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "William H. Sanders",
+    "prof_keywords": [
+      "Distributed systems and fault tolerance",
+      "Petri Nets in System Modeling",
+      "Software System Performance and Reliability",
+      "Real-Time Systems Scheduling",
+      "Network Security and Intrusion Detection"
+    ],
+    "prof_email": "william.h.sanders@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Constantine Samaras",
+    "prof_keywords": [
+      "Electric Vehicles and Infrastructure",
+      "Transportation and Mobility Innovations",
+      "Energy, Environment, and Transportation Policies",
+      "Flood Risk Assessment and Management",
+      "Transportation Planning and Optimization"
+    ],
+    "prof_email": "csamaras@cmu.edu",
+    "prof_dpt": "CEE: Civil & Environmental Engineering"
+  },
+  {
+    "prof_name": "Frank Heinrich",
+    "prof_keywords": [
+      "Lipid Membrane Structure and Behavior",
+      "Protein Structure and Dynamics",
+      "Antimicrobial Peptides and Activities",
+      "Cellular transport and secretion",
+      "HIV Research and Treatment"
+    ],
+    "prof_email": "fheinrich@cmu.edu",
+    "prof_dpt": "Physics"
+  },
+  {
+    "prof_name": "Robert M. Suter",
+    "prof_keywords": [
+      "Microstructure and mechanical properties",
+      "Microstructure and Mechanical Properties of Steels",
+      "Advanced X-ray Imaging Techniques",
+      "Theoretical and Computational Physics",
+      "Lipid Membrane Structure and Behavior"
+    ],
+    "prof_email": "suter@andrew.cmu.edu",
+    "prof_dpt": "Physics"
+  },
+  {
+    "prof_name": "Shannon Gallagher",
+    "prof_keywords": [
+      "Rangeland and Wildlife Management",
+      "Peatlands and Wetlands Ecology",
+      "Water-Energy-Food Nexus Studies",
+      "Sustainability and Ecological Systems Analysis",
+      "Archaeology and Natural History"
+    ],
+    "prof_email": "skgallagher@sei.cmu.edu",
+    "prof_dpt": "SEI Ai Frontier Lab"
+  },
+  {
+    "prof_name": "Gabriel dos Passos Gomes",
+    "prof_keywords": [
+      "Crystallization and Solubility Studies",
+      "X-ray Diffraction in Crystallography",
+      "Machine Learning in Materials Science",
+      "Catalytic C\u2013H Functionalization Methods",
+      "Radical Photochemical Reactions"
+    ],
+    "prof_email": "gabegomes@cmu.edu",
+    "prof_dpt": "Chemical Engineering"
+  },
+  {
+    "prof_name": "Lisa Dunn",
+    "prof_keywords": [
+      "American Environmental and Regional History",
+      "Historical and Cultural Archaeology Studies",
+      "Geochemistry and Geologic Mapping",
+      "Geological Modeling and Analysis",
+      "American History and Culture"
+    ],
+    "prof_email": "lisa.dunn@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Tridas Mukhopadhyay",
+    "prof_keywords": [
+      "Digital Platforms and Economics",
+      "Consumer Market Behavior and Pricing",
+      "Software Engineering Techniques and Practices",
+      "Software Engineering Research",
+      "Merger and Competition Analysis"
+    ],
+    "prof_email": "tridas@cmu.edu",
+    "prof_dpt": "Tepper Faculty Affairs"
+  },
+  {
+    "prof_name": "Farnam Jahanian",
+    "prof_keywords": [
+      "Network Security and Intrusion Detection",
+      "Distributed systems and fault tolerance",
+      "Real-Time Systems Scheduling",
+      "Internet Traffic Analysis and Secure E-voting",
+      "Advanced Malware Detection Techniques"
+    ],
+    "prof_email": "president@cmu.edu",
+    "prof_dpt": "Computer Science Department"
+  },
+  {
+    "prof_name": "Jee-weon Jung",
+    "prof_keywords": [
+      "Speech Recognition and Synthesis",
+      "Speech and Audio Processing",
+      "Music and Audio Processing",
+      "Natural Language Processing Techniques",
+      "Topic Modeling"
+    ],
+    "prof_email": "jee-weon.jung@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Jerome J. Wolken",
+    "prof_keywords": [
+      "Photoreceptor and optogenetics research",
+      "Photosynthetic Processes and Mechanisms",
+      "Algal biology and biofuel production",
+      "Light effects on plants",
+      "Neurobiology and Insect Physiology Research"
+    ],
+    "prof_email": "jerome.j.wolken@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Bernardo Subercaseaux",
+    "prof_keywords": [
+      "Cultural and Social Studies in Latin America",
+      "Comparative Literary Analysis and Criticism",
+      "Spanish Literature and Culture Studies",
+      "Political and Social Dynamics in Chile and Latin America",
+      "Bayesian Modeling and Causal Inference"
+    ],
+    "prof_email": "bersub@cmu.edu",
+    "prof_dpt": "Computer Science"
+  },
+  {
+    "prof_name": "Yuvraj Agarwal",
+    "prof_keywords": [
+      "Privacy, Security, and Data Protection",
+      "Advanced Malware Detection Techniques",
+      "Green IT and Sustainability",
+      "Context-Aware Activity Recognition Systems",
+      "Building Energy and Comfort Optimization"
+    ],
+    "prof_email": "yuvraj@cs.cmu.edu",
+    "prof_dpt": "ECE: Electrical & Computer Engineering"
+  },
+  {
+    "prof_name": "William F. Eddy",
+    "prof_keywords": [
+      "Functional Brain Connectivity Studies",
+      "Advanced MRI Techniques and Applications",
+      "Statistics Education and Methodologies",
+      "Bayesian Methods and Mixture Models",
+      "Statistical Methods and Inference"
+    ],
+    "prof_email": "bill@cmu.edu",
+    "prof_dpt": "Statistics"
+  },
+  {
+    "prof_name": "Michael Kaminsky",
+    "prof_keywords": [
+      "Advanced Data Storage Technologies",
+      "Caching and Content Delivery",
+      "Cloud Computing and Resource Management",
+      "Distributed systems and fault tolerance",
+      "Parallel Computing and Optimization Techniques"
+    ],
+    "prof_email": "mkaminsky@cmu.edu",
+    "prof_dpt": "Computer Science Department"
+  },
+  {
+    "prof_name": "Byron M. Yu",
+    "prof_keywords": [
+      "EEG and Brain-Computer Interfaces",
+      "Neural dynamics and brain function",
+      "Neuroscience and Neural Engineering",
+      "Muscle activation and electromyography studies",
+      "Advanced Memory and Neural Computing"
+    ],
+    "prof_email": "byronyu@cmu.edu",
+    "prof_dpt": "ECE: Electrical & Computer Engineering"
+  },
+  {
+    "prof_name": "Virginia Smith",
+    "prof_keywords": [
+      "Privacy-Preserving Technologies in Data",
+      "Stochastic Gradient Optimization Techniques",
+      "Machine Learning and Data Classification",
+      "Domain Adaptation and Few-Shot Learning",
+      "Advanced Neural Network Applications"
+    ],
+    "prof_email": "smithv@cmu.edu",
+    "prof_dpt": "MLD: Machine Learning Department"
+  },
+  {
+    "prof_name": "John L. Woolford",
+    "prof_keywords": [
+      "RNA and protein synthesis mechanisms",
+      "RNA modifications and cancer",
+      "RNA Research and Splicing",
+      "Fungal and yeast genetics research",
+      "Peptidase Inhibition and Analysis"
+    ],
+    "prof_email": "jw17@andrew.cmu.edu",
+    "prof_dpt": "Biological Sciences"
+  },
+  {
+    "prof_name": "Eunsuk Kang",
+    "prof_keywords": [
+      "Advanced Software Engineering Methodologies",
+      "Formal Methods in Verification",
+      "Software Reliability and Analysis Research",
+      "Safety Systems Engineering in Autonomy",
+      "Software Engineering Research"
+    ],
+    "prof_email": "eskang@cmu.edu",
+    "prof_dpt": "S3D Software and Societal Systems Department"
+  },
+  {
+    "prof_name": "Su\u2010Fei Shi",
+    "prof_keywords": [
+      "2D Materials and Applications",
+      "Perovskite Materials and Applications",
+      "Graphene research and applications",
+      "Chalcogenide Semiconductor Thin Films",
+      "Molecular Junctions and Nanostructures"
+    ],
+    "prof_email": "su\u2010fei.shi@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "R.B. Sutton",
+    "prof_keywords": [
+      "Particle physics theoretical and experimental studies",
+      "Quantum Chromodynamics and Particle Interactions",
+      "High-Energy Particle Collisions Research",
+      "Atomic and Molecular Physics",
+      "Neutrino Physics Research"
+    ],
+    "prof_email": "rb.sutton@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Gloriana St. Clair",
+    "prof_keywords": [
+      "Library Science and Information Literacy",
+      "Web and Library Services",
+      "Library Science and Administration",
+      "Folklore, Mythology, and Literature Studies",
+      "Themes in Literature Analysis"
+    ],
+    "prof_email": "gstclair@andrew.cmu.edu",
+    "prof_dpt": "University Libraries-Administration"
+  },
+  {
+    "prof_name": "John F. Porter",
+    "prof_keywords": [
+      "Adsorption and biosorption for pollutant removal",
+      "Extraction and Separation Processes",
+      "Bacterial Infections and Vaccines",
+      "Recycling and Waste Management Techniques",
+      "Radioactive element chemistry and processing"
+    ],
+    "prof_email": "john.f.porter@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Gil Goldman",
+    "prof_keywords": [
+      "Ovarian function and disorders",
+      "Reproductive Biology and Fertility",
+      "Sparse and Compressive Sensing Techniques",
+      "Ectopic Pregnancy Diagnosis and Management",
+      "Assisted Reproductive Technology and Twin Pregnancy"
+    ],
+    "prof_email": "gilg@andrew.cmu.edu",
+    "prof_dpt": "Computer Science Department"
+  },
+  {
+    "prof_name": "Stephen W. Director",
+    "prof_keywords": [
+      "Manufacturing Process and Optimization",
+      "VLSI and FPGA Design Techniques",
+      "VLSI and Analog Circuit Testing",
+      "Low-power high-performance VLSI design",
+      "Advanced Multi-Objective Optimization Algorithms"
+    ],
+    "prof_email": "stephen.w.director@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Kris Noel Dahl",
+    "prof_keywords": [
+      "Nuclear Structure and Function",
+      "RNA Research and Splicing",
+      "Cellular Mechanics and Interactions",
+      "Genomics and Chromatin Dynamics",
+      "Carbon Nanotubes in Composites"
+    ],
+    "prof_email": "kris.noel.dahl@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Mayank Goel",
+    "prof_keywords": [
+      "Context-Aware Activity Recognition Systems",
+      "Interactive and Immersive Displays",
+      "Tactile and Sensory Interactions",
+      "Gaze Tracking and Assistive Technology",
+      "Hand Gesture Recognition Systems"
+    ],
+    "prof_email": "mayankgoel@cmu.edu",
+    "prof_dpt": "HCII: Human Computer Interaction Institute"
+  },
+  {
+    "prof_name": "Karl Crary",
+    "prof_keywords": [
+      "Logic, programming, and type systems",
+      "Formal Methods in Verification",
+      "Security and Verification in Computing",
+      "Parallel Computing and Optimization Techniques",
+      "Logic, Reasoning, and Knowledge"
+    ],
+    "prof_email": "crary@cmu.edu",
+    "prof_dpt": "Computer Science Department"
+  },
+  {
+    "prof_name": "Wilpen L. Gorr",
+    "prof_keywords": [
+      "Crime Patterns and Interventions",
+      "Forecasting Techniques and Applications",
+      "Data-Driven Disease Surveillance",
+      "Geographic Information Systems Studies",
+      "Gun Ownership and Violence Research"
+    ],
+    "prof_email": "gorr@cmu.edu",
+    "prof_dpt": "Heinz General & Administrative"
+  },
+  {
+    "prof_name": "Steven M. Chase",
+    "prof_keywords": [
+      "EEG and Brain-Computer Interfaces",
+      "Neural dynamics and brain function",
+      "Neuroscience and Neural Engineering",
+      "Motor Control and Adaptation",
+      "Advanced Memory and Neural Computing"
+    ],
+    "prof_email": "schase@cmu.edu",
+    "prof_dpt": "Biomedical Engineering"
+  },
+  {
+    "prof_name": "Jun Liu",
+    "prof_keywords": [
+      "Advanced Neural Network Applications",
+      "Financial Markets and Investment Strategies",
+      "Economic theories and models",
+      "Stochastic processes and financial applications",
+      "Stock Market Forecasting Methods"
+    ],
+    "prof_email": "junliu2@andrew.cmu.edu",
+    "prof_dpt": "Robotics Institute"
+  },
+  {
+    "prof_name": "Jan Hoffmann",
+    "prof_keywords": [
+      "Formal Methods in Verification",
+      "Logic, programming, and type systems",
+      "Parallel Computing and Optimization Techniques",
+      "Distributed systems and fault tolerance",
+      "Software Testing and Debugging Techniques"
+    ],
+    "prof_email": "jhoffmann@cmu.edu",
+    "prof_dpt": "Computer Science Department"
+  },
+  {
+    "prof_name": "Paul E. Rybski",
+    "prof_keywords": [
+      "Robotic Path Planning Algorithms",
+      "Modular Robots and Swarm Intelligence",
+      "Robotics and Sensor-Based Localization",
+      "Video Surveillance and Tracking Methods",
+      "Distributed Control Multi-Agent Systems"
+    ],
+    "prof_email": "paul.e.rybski@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Christopher Y. Olivola",
+    "prof_keywords": [
+      "Decision-Making and Behavioral Economics",
+      "Psychology of Moral and Emotional Judgment",
+      "Experimental Behavioral Economics Studies",
+      "Evolutionary Psychology and Human Behavior",
+      "Social and Intergroup Psychology"
+    ],
+    "prof_email": "christopher.y.olivola@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Donna Harsch",
+    "prof_keywords": [
+      "European history and politics",
+      "Communism, Protests, Social Movements",
+      "German History and Society",
+      "Historical Studies on Reproduction, Gender, Health, and Societal Changes",
+      "Medical History and Research"
+    ],
+    "prof_email": "dh44@andrew.cmu.edu",
+    "prof_dpt": "History"
+  },
+  {
+    "prof_name": "Jessica Benner",
+    "prof_keywords": [
+      "Web and Library Services",
+      "Geographic Information Systems Studies",
+      "Open Education and E-Learning",
+      "Mobile Learning in Education",
+      "Library Collection Development and Digital Resources"
+    ],
+    "prof_email": "jbenner@andrew.cmu.edu",
+    "prof_dpt": "University Libraries-Research & Academic Services"
+  },
+  {
+    "prof_name": "Kay C Dee",
+    "prof_keywords": [
+      "Engineering Education and Curriculum Development",
+      "Bone Tissue Engineering Materials",
+      "Engineering Education and Pedagogy",
+      "Biomedical and Engineering Education",
+      "3D Printing in Biomedical Research"
+    ],
+    "prof_email": "kay.c.dee@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "R.W. Kraemer",
+    "prof_keywords": [
+      "Particle physics theoretical and experimental studies",
+      "Quantum Chromodynamics and Particle Interactions",
+      "High-Energy Particle Collisions Research",
+      "Dark Matter and Cosmic Phenomena",
+      "Neutrino Physics Research"
+    ],
+    "prof_email": "rk1t@andrew.cmu.edu",
+    "prof_dpt": "Physics"
+  },
+  {
+    "prof_name": "Amir Zadeh",
+    "prof_keywords": [
+      "Topic Modeling",
+      "Multimodal Machine Learning Applications",
+      "Sentiment Analysis and Opinion Mining",
+      "Emotion and Mood Recognition",
+      "Speech Recognition and Synthesis"
+    ],
+    "prof_email": "amir.zadeh@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Brendan O\u2019Connor",
+    "prof_keywords": [
+      "Gamma-ray bursts and supernovae",
+      "Astrophysical Phenomena and Observations",
+      "Pulsars and Gravitational Waves Research",
+      "Astrophysics and Cosmic Phenomena",
+      "Astronomy and Astrophysical Research"
+    ],
+    "prof_email": "brendan.o\u2019connor@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Dionisio de Niz",
+    "prof_keywords": [
+      "Real-Time Systems Scheduling",
+      "Embedded Systems Design Techniques",
+      "Distributed systems and fault tolerance",
+      "Formal Methods in Verification",
+      "Parallel Computing and Optimization Techniques"
+    ],
+    "prof_email": "dio@cmu.edu",
+    "prof_dpt": "SEI Ssd Acps Administration"
+  },
+  {
+    "prof_name": "Keenan Crane",
+    "prof_keywords": [
+      "3D Shape Modeling and Analysis",
+      "Computer Graphics and Visualization Techniques",
+      "Advanced Numerical Analysis Techniques",
+      "Computational Geometry and Mesh Generation",
+      "Human Motion and Animation"
+    ],
+    "prof_email": "kmcrane@cs.cmu.edu",
+    "prof_dpt": "Computer Science Department"
+  },
+  {
+    "prof_name": "Aaron Strong",
+    "prof_keywords": [
+      "Cephalopods and Marine Biology",
+      "Marine Biology and Ecology Research",
+      "Marine and coastal plant biology",
+      "Economic and Environmental Valuation",
+      "Water resources management and optimization"
+    ],
+    "prof_email": "aaron.strong@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Ling-Fong Li",
+    "prof_keywords": [
+      "Particle physics theoretical and experimental studies",
+      "Quantum Chromodynamics and Particle Interactions",
+      "Black Holes and Theoretical Physics",
+      "Neutrino Physics Research",
+      "High-Energy Particle Collisions Research"
+    ],
+    "prof_email": "lingfongcmu@gmail.com",
+    "prof_dpt": "Physics"
+  },
+  {
+    "prof_name": "John McDonough",
+    "prof_keywords": [
+      "Speech and Audio Processing",
+      "Speech Recognition and Synthesis",
+      "Advanced Adaptive Filtering Techniques",
+      "Blind Source Separation Techniques",
+      "Music and Audio Processing"
+    ],
+    "prof_email": "john.mcdonough@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Zakia Hammal",
+    "prof_keywords": [
+      "Emotion and Mood Recognition",
+      "Face and Expression Recognition",
+      "Face recognition and analysis",
+      "Musculoskeletal pain and rehabilitation",
+      "Face Recognition and Perception"
+    ],
+    "prof_email": "zhammal@andrew.cmu.edu",
+    "prof_dpt": "Robotics Institute"
+  },
+  {
+    "prof_name": "Hyeong-Gyun Kim",
+    "prof_keywords": [
+      "Thermal Radiation and Cooling Technologies",
+      "Consumer Perception and Purchasing Behavior",
+      "Plasmonic and Surface Plasmon Research",
+      "Metamaterials and Metasurfaces Applications",
+      "Diverse Topics in Contemporary Research"
+    ],
+    "prof_email": "hyeong-gyun.kim@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Sunder Kekre",
+    "prof_keywords": [
+      "Product Development and Customization",
+      "Scheduling and Optimization Algorithms",
+      "Supply Chain and Inventory Management",
+      "Assembly Line Balancing Optimization",
+      "Manufacturing Process and Optimization"
+    ],
+    "prof_email": "skekre@cmu.edu",
+    "prof_dpt": "Tepper School of Business"
+  },
+  {
+    "prof_name": "Juan R. Chamorro",
+    "prof_keywords": [
+      "Rare-earth and actinide compounds",
+      "Advanced Condensed Matter Physics",
+      "Topological Materials and Phenomena",
+      "Crystallization and Solubility Studies",
+      "X-ray Diffraction in Crystallography"
+    ],
+    "prof_email": "jrchamorro@cmu.edu",
+    "prof_dpt": "MSE: Materials Science & Engineering"
+  },
+  {
+    "prof_name": "Minchen Li",
+    "prof_keywords": [
+      "Fluid Dynamics Simulations and Interactions",
+      "3D Shape Modeling and Analysis",
+      "Adhesion, Friction, and Surface Interactions",
+      "Dynamics and Control of Mechanical Systems",
+      "Computational Geometry and Mesh Generation"
+    ],
+    "prof_email": "minchenl@andrew.cmu.edu",
+    "prof_dpt": "Computer Science Department"
+  },
+  {
+    "prof_name": "So-Yeon Min",
+    "prof_keywords": [
+      "Internet of Things and Social Network Interactions",
+      "Speech and Audio Processing",
+      "Multimodal Machine Learning Applications",
+      "Advanced Data Compression Techniques",
+      "Topic Modeling"
+    ],
+    "prof_email": "so-yeon.min@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Nicos Christofides",
+    "prof_keywords": [
+      "Vehicle Routing Optimization Methods",
+      "Optimization and Packing Problems",
+      "Advanced Graph Theory Research",
+      "Optimization and Search Problems",
+      "Facility Location and Emergency Management"
+    ],
+    "prof_email": "nicos.christofides@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Eli Ben\u2010Michael",
+    "prof_keywords": [
+      "Advanced Causal Inference Techniques",
+      "Statistical Methods and Inference",
+      "Statistical Methods and Bayesian Inference",
+      "Health Systems, Economic Evaluations, Quality of Life",
+      "Economic Policies and Impacts"
+    ],
+    "prof_email": "eli.ben\u2010michael@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  },
+  {
+    "prof_name": "Grzegorz Szczepaniak",
+    "prof_keywords": [
+      "Advanced Polymer Synthesis and Characterization",
+      "Crystallization and Solubility Studies",
+      "X-ray Diffraction in Crystallography",
+      "Synthetic Organic Chemistry Methods",
+      "Polymer Surface Interaction Studies"
+    ],
+    "prof_email": "prestonkg@cmu.edu",
+    "prof_dpt": "Business Administration"
+  },
+  {
+    "prof_name": "William M. Bulleit",
+    "prof_keywords": [
+      "Wood Treatment and Properties",
+      "Probabilistic and Robust Engineering Design",
+      "Structural Engineering and Vibration Analysis",
+      "Tree Root and Stability Studies",
+      "Structural Response to Dynamic Loads"
+    ],
+    "prof_email": "william.m.bulleit@cs.cmu.edu",
+    "prof_dpt": "Unknown"
+  }
+]
