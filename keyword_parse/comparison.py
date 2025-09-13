@@ -48,7 +48,7 @@ def get_top_similar_profs(student_keywords: List[str], threshold: float = 0.3, p
     prof_data = torch.load(prof_data_path, map_location='cpu')
 
     # Encode student keywords once
-    student_emb = model.encode(student_keywords, convert_to_tensor=True, normalize_embeddings=True)
+    student_emb = model.encode(student_keywords, convert_to_tensor=True, normalize_embeddings=True).to('cpu')
 
     results = []
 

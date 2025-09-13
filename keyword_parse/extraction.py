@@ -3,12 +3,13 @@ import requests
 import re
 import pickle
 from typing import List, Dict
-from .comparison import get_top_similar_profs  # your optimized prof matching
+from comparison import get_top_similar_profs  # your optimized prof matching
 from dotenv import load_dotenv
 
 load_dotenv()
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+
 
 def get_keywords_from_document(resume_text: str) -> List[str]:
     """
@@ -61,18 +62,38 @@ def get_keywords_from_document(resume_text: str) -> List[str]:
         # fallback: comma split
         return [kw.strip().lower() for kw in output_text.split(",")]
 
-def draft_email_to_prof(student_keywords: List[str], stu_name: str, stuid: str, matched_interests: List[str], prof_name: str) -> str:
+
+def draft_email_to_prof(
+    student_keywords: List[str],
+    stu_name: str,
+    stuid: str,
+    resume_text: str,
+    matched_interests: List[str],
+    prof_name: str
+) -> str:
     """
-    Uses Gemini API to draft a personalized email to a professor.
+    Uses Gemini API to draft a personalized email to a professor, alum, or student.
+    The tone is: came across your work, interested in connecting, and highlighting overlaps.
     """
     prompt = f"""
-    Draft a professional and polite email to Professor {prof_name} expressing interest
-    in their research. The student has the following research interests: {student_keywords}.
-    They share these specific matched interests with the professor: {matched_interests}.
-    Their name is {stu_name} and Andrew ID is {stuid} (student id at CMU).
-    Keep it concise, 3-5 sentences, and include a polite request to discuss research opportunities.
-    """
+    Draft a professional and thorough email to {prof_name} from the perspective of a CMU student.
+    The student's name is {stu_name} and his/her Andrew ID is {stuid}.
 
+    Student details (resume text):
+    {resume_text}
+
+    Student research interests / keywords: {student_keywords}.
+    Shared interests with {prof_name}: {matched_interests}.
+
+    The email should:
+    - Say the student came across their work and is very interested.
+    - Highlight overlaps in research / professional / matched interests above and past experiences from the resume.
+    - Elaborates on 1-2 experiences from the resume and explains accomplishments and connection to the professor's work.
+    - Politely ask if they'd be available for a chat or to connect.
+    - Be friendly and tailored to the student's background.
+    - GIVE ME THE FINAL EMAIL ONLY, NO EXPLANATIONS OR MARKDOWN OR [], SOMETHING WHICH I CAN SEND DIRECTLY.
+    """
+    print(prompt)
     headers = {
         "Content-Type": "application/json",
         "X-goog-api-key": GEMINI_API_KEY
@@ -108,31 +129,27 @@ if __name__ == "__main__":
     student_resume = """
     I am a computer science student interested in machine learning, robotics, 
     reinforcement learning, and natural language processing. I have experience 
-    with Python, TensorFlow, and PyTorch.
+    with Python, TensorFlow, and PyTorch. I also worked on an autonomous drone
+    navigation project using visual-inertial odometry and Kalman filtering.
     """
 
     # 2. Extract student keywords
     student_keywords = get_keywords_from_document(student_resume)
     print("Extracted Student Keywords:", student_keywords)
 
-    # 3. Find top professors
-    top_profs = get_top_similar_profs(student_keywords, threshold=0.3, prof_data_path=".prof_data.pkl")
+    # 3. Find top matches (professors/alumni/students)
+    top_profs = get_top_similar_profs(student_keywords, threshold=0.3, prof_data_path="prof_data.pt")
     
     # 4. Draft emails for each prof
-    for prof in top_profs:
+    for prof in top_profs[0:1]:
         prof_name = prof['prof_name']
         matched_interests = prof['matched_interests']
-        email_text = draft_email_to_prof(student_keywords, matched_interests, prof_name)
+        email_text = draft_email_to_prof(
+            student_keywords,
+            stu_name="John Doe",
+            stuid="jdoe",
+            resume_text=student_resume,
+            matched_interests=matched_interests,
+            prof_name=prof_name
+        )
         print(f"\n--- Email to {prof_name} ---\n{email_text}\n")
-        
-# Example usage
-if __name__ == "__main__":
-    resume_text = """
-    I am a computer science student interested in machine learning, robotics, 
-    reinforcement learning, and natural language processing. I have experience 
-    with Python, TensorFlow, and PyTorch.
-    """
-    keywords = get_keywords_from_document(resume_text)
-    print(keywords)
-
-
