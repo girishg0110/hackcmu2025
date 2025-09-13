@@ -43,7 +43,7 @@ def get_top_similar_profs(student_keywords: List[str], threshold: float = 0.3, p
     if not os.path.exists(prof_data_path):
         raise FileNotFoundError(f"Precomputed prof data file not found: {prof_data_path}")
     
-    prof_meta = json.load(open('../authors_and_topics.json', 'r'))
+    prof_meta = json.load(open('../filtered_authors_and_topics.json', 'r'))
     prof_data = torch.load(prof_data_path)
 
     # Encode student keywords once
@@ -97,7 +97,7 @@ def get_top_similar_profs(student_keywords: List[str], threshold: float = 0.3, p
 if __name__ == "__main__":
     # Example professors
 
-    with open('../authors_and_topics.json', 'rb') as f:
+    with open('../filtered_authors_and_topics.json', 'rb') as f:
         profs = json.load(f)
 
     # Step 1: Precompute embeddings and save
